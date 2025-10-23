@@ -99,4 +99,25 @@ html, body {
     grid-row: 2/3;
 }
 
-
+.kontakt {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 100px 200px 100px;
+    grid-template-areas: 
+    "header3 header3 header3 header3"
+    "main3 main3 main3 main3"
+    "footer3 footer3 footer3 footer3";
+}
+.header3 {
+    grid-area: header3;
+}
+.main3 {
+    grid-area: main3;
+}
+.footer3 {
+    grid-area: footer3;
+}
+.kontakt1 {
+    grid-area: footer3;
+    text-align: right;
+}
